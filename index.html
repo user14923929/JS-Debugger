@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Debugger</title>
+    <link rel="stylesheet" href="https://user14923929.github.io/JS-Debugger/assets/css/style.css">
+    <script src="https://user14923929.github.io/JS-Debugger/assets/js/debug.js"></script>
+</head>
+<header>
+    <h1>JS Debugger</h1>
+</header>
+<body>
+    <br>
+    <warn>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#eb8556"><path d="m40-120 440-760 440 760H40Zm138-80h604L480-720 178-200Zm302-40q17 0 28.5-11.5T520-280q0-17-11.5-28.5T480-320q-17 0-28.5 11.5T440-280q0 17 11.5 28.5T480-240Zm-40-120h80v-200h-80v200Zm40-100Z"/></svg>
+        To make everything work, open the dev panel using Ctrl+Shift+I and check JavaScript is enable. Doesn't work on mobile devices!
+    </warn>
+    <br>
+    <br>
+    <input type="text" id="text" placeholder="Enter a text">
+    <input type="number" min="1" max="100" id="steps" placeholder="Enter a steps">
+    <button onclick="debug()">Debug</button>
+    <h3>Output</h3>
+    <pre id="output"></pre>
+</body>
+</html>

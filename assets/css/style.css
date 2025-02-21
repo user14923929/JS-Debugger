@@ -1,0 +1,80 @@
+body {
+    background-color: #f8f9fa;
+    font-family: sans-serif;
+    margin-bottom: 15%;
+    font-size: 16px;
+    font-weight: 400;
+    font-display: swap;
+    line-height: 1.5;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type="text"], input[type="number"] {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+    font-display: swap;
+    line-height: 1.5;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    font-display: swap;
+    line-height: 1.5;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+pre {
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    font-family: monospace;
+}
+
+warn {
+    color: #fdf3aa;
+    background-color: #413c26;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+warn svg {
+    vertical-align: middle;
+}
