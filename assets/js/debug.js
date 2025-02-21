@@ -1,6 +1,6 @@
 function debug() {
     const text = document.getElementById('text');
-    const steps = document.getElementById('steps');
+    const steps = parseInt(document.getElementById('steps').value, 10);
     const output = document.getElementById('output');
 
     if (text.value.length === 0) {
@@ -15,7 +15,7 @@ function debug() {
     } else {
         output.innerHTML = 'Starting debug...\n';
         debugger;
-        for (let i = 1; i < steps; i++) {
+        for (let i = 0; i < steps; i++) {
             output.innerHTML += `Step ${i + 1}: ${text.value}\n`;
             debugger;
         }
